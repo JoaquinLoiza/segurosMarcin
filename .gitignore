@@ -1,3 +1,5 @@
-/cache
-/templates_c
-/uploads
+/web/cache
+/web/templates_c
+/web/uploads
+/vendor
+.env
