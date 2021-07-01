@@ -1,7 +1,7 @@
 <?php
 require '../vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable('../');
-$dotenv->load();
+$dotenv->safeLoad();
 
 class BaseModel{
     public function createConection(){
