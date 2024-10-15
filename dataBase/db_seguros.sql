@@ -118,9 +118,7 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id_usuario`, `email`, `usuario`, `password`, `token`, `administrador`) VALUES
 (1, 'aguirremarcela@hotmail.com.ar', 'aguirremarcela', '$2y$12$F7t4Mjv6wWGttGVAuozTyexkGCnlXaSMfjSTl11o/NNH2FaNpnxmK', '', 1),
-(2, 'joaquin_loiza@hotmail.com', 'loizajoaquin', '$2y$10$88EM4Vue2KhHTaW3KPEc5OQn589OOIhNMZ9FK7b1S9/AGTHIkjKCm', '', 1),
-(3, 'romina_dehesa@hotmail.com', 'dehesaromina', '$2y$10$Ik.Bwm/jYAaR7hVaisnkb.HNUt8mL87Ukza3TbUbafDyo1cRg8Afu', '', 0),
-(4, 'style.gra.rivero@gmail.com', 'Gra.Rivero', '$2y$10$AS/2JVOg1nJBnVPK83Ws0.chz4Jchcz0pO/tRKyU86e4EcHIyyele', '', 0);
+(2, 'joaquin_loiza@hotmail.com', 'loizajoaquin', '$2y$10$88EM4Vue2KhHTaW3KPEc5OQn589OOIhNMZ9FK7b1S9/AGTHIkjKCm', '', 1);
 
 --
 -- Índices para tablas volcadas

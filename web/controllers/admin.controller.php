@@ -1,9 +1,9 @@
 <?php
- require_once 'models/admin.model.php';
- require_once 'models/insurances.model.php';
- require_once 'models/user.model.php';
- require_once 'views/admin.view.php';
- require_once 'views/errors.view.php';
+ require_once 'web/models/admin.model.php';
+ require_once 'web/models/insurances.model.php';
+ require_once 'web/models/user.model.php';
+ require_once 'web/views/admin.view.php';
+ require_once 'web/views/errors.view.php';
  
  class AdminController{
     private $model;

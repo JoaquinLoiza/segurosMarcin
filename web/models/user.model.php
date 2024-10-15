@@ -1,5 +1,5 @@
 <?php
-require_once 'models/base.model.php';
+require_once 'web/models/base.model.php';
 
 class UserModel extends BaseModel{
 

@@ -1,5 +1,5 @@
 <?php
-    require_once ('views/base.view.php');
+    require_once ('web/views/base.view.php');
 
     class ErrorsView extends BaseView{
         private $smarty;

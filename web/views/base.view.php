@@ -1,9 +1,11 @@
 <?php
-require_once ('libs/smarty/Smarty.class.php');
+require_once ('web/libs/smarty/Smarty.class.php');
 class BaseView {
     private $smarty;
     public function baseView(){
         $this->smarty = new Smarty();
+        $this->smarty->setTemplateDir('web/templates');
+        $this->smarty->setCompileDir('web/templates_c');
         $this->smarty->assign('base_url', BASE_URL);
         if(session_status()!= PHP_SESSION_ACTIVE){
             session_start();

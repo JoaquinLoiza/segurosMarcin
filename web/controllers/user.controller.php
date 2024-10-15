@@ -1,7 +1,7 @@
 <?php
-require_once 'models/user.model.php';
-require_once 'views/user.view.php';
-require_once 'views/errors.view.php';
+require_once 'web/models/user.model.php';
+require_once 'web/views/user.view.php';
+require_once 'web/views/errors.view.php';
 
 class UserController{
     private $model;

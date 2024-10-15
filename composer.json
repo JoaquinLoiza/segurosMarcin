@@ -1,5 +1,20 @@
-{
+{   
+    "name": "seguros/marcin",
+    "description": "Este proyecto simula un sitio web de una compañia aseguradora que brinda sus servicios para diferentes categorias (Autos, motos, hogar, vida, etc), donde cada categoria ofrece distintos planes. El ususario puede ingresar a cualquier plan que corresponde a una categoria y ver las coberturas, y la descripción de las mismas. A sus vez el sitio cuenta con un area de administración. El mismo nos mostrara un formulario de Login que se accede con un email y contraseña. En el area de administracion se podrá dar de alta, eliminar y editar categorias y planes.",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joaquin Loiza",
+            "email": "joaquin_loiza@hotmail.com"
+        },
+        {
+            "name": "Marcela Aguirre",
+            "email": "aguirremarcela@hotmail.com.ar"
+        }
+    ],
     "require": {
-        "vlucas/phpdotenv": "^5.3"
+        "vlucas/phpdotenv": "^5.6"
     }
 }

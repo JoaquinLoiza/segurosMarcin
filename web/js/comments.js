@@ -43,10 +43,10 @@ function loadPage(){
         fetch(url,{
         }).then(function (r) {
             /*  Si el status de la respuesta es 204, el plan no tiene comentarios
-                y se le asigna el valor null a la variable comments.
+            y se le asigna el valor null a la variable comments.
             */
-            if (r.status == 204){
-                app.comments=null;
+           if (r.status == 204){
+               app.comments=null;
             }
             else if (!r.ok) {
                 showAlert("error", "Oops..", "No se pudieron traer los datos del servidor");
@@ -54,7 +54,7 @@ function loadPage(){
                 return r.json();
             }
         }).then(function (json) {
-        if(json != undefined){
+            if(json != undefined){
             app.comments=json;
             calculateAverage(json);
         }  

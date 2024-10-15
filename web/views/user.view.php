@@ -1,5 +1,5 @@
 <?php
-    require_once ('views/base.view.php');
+    require_once ('web/views/base.view.php');
 class UserView extends BaseView{
     private $smarty;
     public function __construct(){

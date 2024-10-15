@@ -1,7 +1,7 @@
 <?php
-require_once 'models/insurances.model.php';
-require_once 'models/comments.model.php';
-require_once 'api.view.php';
+require_once 'web/models/insurances.model.php';
+require_once 'web/models/comments.model.php';
+require_once 'web/api/api.view.php';
 
 class CommentsController{
     private $modelComments;
@@ -36,6 +36,7 @@ class CommentsController{
             $this->view->response("No existe plan con id {$idPlan}", 404);
             die();
         }
+
         $this->view->response($comments,200);
     }
 

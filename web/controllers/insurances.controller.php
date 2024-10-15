@@ -1,7 +1,7 @@
 <?php
-    require_once 'models/insurances.model.php';
-    require_once 'views/insurances.view.php';
-    require_once 'views/errors.view.php';
+    require_once 'web/models/insurances.model.php';
+    require_once 'web/views/insurances.view.php';
+    require_once 'web/views/errors.view.php';
 
     class InsurancesController{
         private $model;

@@ -51,5 +51,5 @@
 <!--sweet alert 2-->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <!--Script js-->
-<script src="js/comments.js"></script>
+<script src="web/js/comments.js"></script>
 {include "footer.tpl"}

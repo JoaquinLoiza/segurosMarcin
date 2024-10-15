@@ -1,5 +1,5 @@
 <?php
-require_once 'models/base.model.php';
+require_once 'web/models/base.model.php';
 class CommentsModel extends BaseModel{
     private $db;
     public function __construct(){

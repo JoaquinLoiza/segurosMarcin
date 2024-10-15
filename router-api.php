@@ -1,6 +1,6 @@
 <?php
-require_once 'libs/router/Router.php';
-require_once 'api/comments.controller.php';
+require_once 'web/libs/router/Router.php';
+require_once 'web/api/comments.controller.php';
 //creo el ruteador usando la libreria externa
 $router = new Router();
 

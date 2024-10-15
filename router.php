@@ -1,7 +1,7 @@
 <?php
-    require_once 'controllers/insurances.controller.php';
-    require_once 'controllers/admin.controller.php';
-    require_once 'controllers/user.controller.php';
+    require_once 'web/controllers/insurances.controller.php';
+    require_once 'web/controllers/admin.controller.php';
+    require_once 'web/controllers/user.controller.php';
 
     // definimos la base url de forma dinamica.
     define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']).'/');
